@@ -1,0 +1,14 @@
+.Countries-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .Countries-container{
+        display: grid;
+        grid-template-columns: repeat(1,.5fr);
+        
+    }
+}
+
